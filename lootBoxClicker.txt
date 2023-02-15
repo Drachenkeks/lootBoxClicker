@@ -116,10 +116,10 @@ Upgrades
 
 	*boxPlating
 		name:Box Plating
-		desc:A strong and beautiful wooden box, perfect for hight quality loot.<//><b>Effect:</b><.>+2 loot/click<.>+0.2 loot/Crate
+		desc:Plating the boxes with metal increases theyr carrying capacity.<//><b>Effect:</b><.>loot/click x1.1<.>loot/sec x1.1
 		icon:icons[8,2]
 		cost:4000 loot
-		passive:multiply loot yield of lootBoxButton by 1.01
+		passive:multiply loot yield of lootBoxButton by 1.1
 		passive:multiply loot yield of simpleCrate by 1.1
 		req:2000 loot:earned and mahagoniBox
 
@@ -145,7 +145,7 @@ Upgrades
 	*beverageDispensing
 		name:Beverage Dispensing
 		desc:Nothing beats a cold can of soda, after a hard days work of looting.<//><b>Effect:</b><.>+0.5 loot/sec
-		icon:icons[5,3]
+		icon:icons[4,3]
 		cost:1000 loot
 		passive:increase loot yield of gachapon by 0.5
 		req:500 loot:earned and gachapon
@@ -153,7 +153,7 @@ Upgrades
 	*snackDispensing
 		name:Snack Dispensing
 		desc:How about we grab some snack, before we get back to looting?<//><b>Effect:</b><.>+0.5 loot/sec
-		icon:icons[4,3]
+		icon:icons[3,3]
 		cost:1000 loot
 		passive:increase loot yield of gachapon by 0.5
 		req:500 loot:earned and gachapon
@@ -161,7 +161,7 @@ Upgrades
 	*kofiDispensing
 		name:Coffee Dispensing
 		desc:Perfectly convenient for those late night looting days.<//><b>Effect:</b><.>+1 loot/sec
-		icon:icons[6,3]
+		icon:icons[5,3]
 		cost:1200 loot
 		passive:increase loot yield of gachapon by 1
 		req:600 loot:earned and gachapon
