@@ -4,7 +4,7 @@ Let's make a game!
 	desc:A game about "Surprise Mechanics"
 	created:15/02/2023
 	updated:15/02/2023
-	version:0.8
+	version:8
 
 Settings
 	tiling background:https://orteil.dashnet.org/igm/img/crunchyBGdark.jpg
@@ -70,7 +70,15 @@ Buildings
 		icon:icons[3,0]
 		cost:100 loot
 		on tick:yield 1 loot
-		req:100 loot:earned
+		req:60 loot:earned
+
+	*toyStore
+		name:Toy Store|Toy Stores
+		desc:Collectables and Surprise Toys can be bought here.<//><b>Effect:</b><.>Produces 10 loot every seconds.
+		icon:icons[7,2]
+		cost:1100 loot
+		on tick:yield 10 loot
+		req:600 loot:earned
 
 Upgrades
 	*TEMPLATE
