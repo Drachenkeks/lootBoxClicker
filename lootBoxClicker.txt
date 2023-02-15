@@ -33,6 +33,6 @@ Resources
 	*loot|loot
 		name:Loot|Loot
 		desc:This is your loot. You can use it to purchase things. Your goal is to have as much loot as possible!
-		icon:icons[0,1]
+		icon:icons[1,0]
 		class:noBackground
 		show earned
