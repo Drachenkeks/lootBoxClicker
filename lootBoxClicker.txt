@@ -47,7 +47,7 @@ Shinies
 		//class:bigButton
 		on click:
 			//get at least 7, or between 1 and 3 minutes of our loot production
-			$amount=max(7,random(bunnies:ps*60*1,loot:ps*60*3))*1
-			toast The lucky bunny grants you<//><b>[$amount] loot</b>.
+			$amount=max(7,random(loot:ps*60*1,loot:ps*60*3))*1
+			toast You got a Lucky Gift Box with<//><b>[$amount] loot</b>.
 			yield $amount loot
 		end
