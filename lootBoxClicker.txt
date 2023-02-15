@@ -41,8 +41,8 @@ Shinies
 	*luckyLootBox
 		on click:log Woop
 		movement:anywhere
-		frequency:60
-		frequency variation:30
+		frequency:10
+		frequency variation:0
 		icon:icons[2,0]
 		//class:bigButton
 		on click:
