@@ -74,7 +74,7 @@ Upgrades
 		icon:icons[4,0]
 		cost:100 loot
 		passive:increase loot yield of lootBoxButton by 1
-		req:10 bunnies:earned
+		req:10 loot:earned
 
 Achievements
 	*TEMPLATE
