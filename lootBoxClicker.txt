@@ -4,10 +4,10 @@ Let's make a game!
 	desc:A game about "Surprise Mechanics"
 	created:15/02/2023
 	updated:15/02/2023
-	version:0.4
+	version:0-5
 
 Settings
-	background:https://orteil.dashnet.org/igm/img/crunchyBGdark.jpg
+	background:orteil.dashnet.org/igm/img/crunchyBGdark.jpg
 	building cost increase:115%
 	building cost refund:50%
 	spritesheet:Icons, 48 by 48, https://github.com/Drachenkeks/lootBoxClicker/blob/main/Icons.png
