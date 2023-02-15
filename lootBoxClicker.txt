@@ -7,7 +7,7 @@ Let's make a game!
 	version:0.4
 
 Settings
-	background:stuff/meadow.jpg
+	background:https://orteil.dashnet.org/igm/img/crunchyBGdark.jpg
 	building cost increase:115%
 	building cost refund:50%
 	spritesheet:icons, 48 by 48, https://github.com/Drachenkeks/lootBoxClicker/blob/main/Icons.png
