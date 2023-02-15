@@ -182,6 +182,41 @@ Upgrades
 		passive:multiply loot yield of gachapon by 2
 		req:2500 loot:earned and beverageDispensing and snackDispensing and kofiDispensing and moreVendingMachines
 
+	//toy store upgrades
+
+	*tradingCards
+		name:Trading Cards
+		desc:These little paper cards make for good collectables.<//><b>Effect:</b><.>+10 loot/sec
+		icon:icons[4,2]
+		cost:12000 loot
+		passive:increase loot yield of toyStore by 10
+		req:6000 loot:earned and toyStore
+
+	*collectSets
+		name:collectable Sets
+		desc:Find them all, to make your set complete.<//><b>Effect:</b><.>+10 loot/sec
+		icon:icons[3,2]
+		cost:14000 loot
+		passive:increase loot yield of toyStore by 10
+		req:7000 loot:earned and tradingCards
+
+	*boosterPacks
+		name:Booster Packs
+		desc:Contains 5 random collectable cards.<//><b>Effect:</b><.>+10 loot/sec<.>+5 loot/click
+		icon:icons[1,2]
+		cost:18000 loot
+		passive:increase loot yield of toyStore by 10
+		passive:increase loot yield of lootBoxButton by 5
+		req:9000 loot:earned and collectSets
+
+	*holoCards
+		name:Holographic Cards
+		desc:These rare and shiny cards are very valuable. And shiny.<//><b>Effect:</b><.>+15 loot/sec
+		icon:icons[6,2]
+		cost:30000 loot
+		passive:increase loot yield of toyStore by 15
+		req:15000 loot:earned and boosterPacks
+
 Achievements
 	*TEMPLATE
 		on click:anim glow
