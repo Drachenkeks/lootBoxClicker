@@ -166,7 +166,7 @@ Upgrades
 		passive:increase loot yield of gachapon by 1
 		req:600 loot:earned and gachapon
 
-	*largerVendingMachines
+	*largeVendMachines
 		name:larger Vending Machines
 		desc:More internal storage for snacks an loot.<//><b>Effect:</b><.>loot/sec x2
 		icon:icons[2,2]
