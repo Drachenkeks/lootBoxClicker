@@ -119,7 +119,7 @@ Upgrades
 		icon:icons[1,3]
 		cost:4000 loot
 		passive:
-			$bonusgift=0.1*(simpleCrate)
+			$bonusgift=(simpleCrate)
 			increase loot yield of lootBoxButton by $bonusgift
 		end
 		req:2000 loot:earned
