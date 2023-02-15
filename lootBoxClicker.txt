@@ -4,7 +4,7 @@ Let's make a game!
 	desc:A game about "Surprise Mechanics"
 	created:15/02/2023
 	updated:15/02/2023
-	version:07
+	version:0.8
 
 Settings
 	tiling background:https://orteil.dashnet.org/igm/img/crunchyBGdark.jpg
@@ -61,6 +61,7 @@ Buildings
 		icon:icons[0,0]
 		cost:10 loot
 		on tick:yield 0.1 loot
+		passive:if (have bonusGift) increase loot yield of lootBoxButton by 0.1
 		unlocked
 
 	*gachapon
@@ -118,7 +119,7 @@ Upgrades
 		desc:Thanks for your purchases, here is a little gift for you.<//><b>Effect:</b><.>+0.1 loot/click/Loot Crate owned
 		icon:icons[1,3]
 		cost:4000 loot
-		passive:multiplie loot yield of lootBoxButton by 1.1
+		passive:multiply yield of lootBoxButton by 1.01
 		req:2000 loot:earned
 
 	//gacha upgrades
