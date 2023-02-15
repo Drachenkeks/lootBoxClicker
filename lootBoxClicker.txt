@@ -52,3 +52,4 @@ Shinies
 				toast The lucky bunny grants you<//><b>[$amount] loot</b>.
 				yield $amount loot
 			end
+		end
