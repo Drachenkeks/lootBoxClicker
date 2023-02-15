@@ -59,7 +59,7 @@ Buildings
 		name:Loot Crate|Loot Crates
 		desc:A simple Loot Crate, nothing fancy.<//><b>Effect:</b><.>Produces 1 loot every 10 seconds.
 		icon:icons[0,0]
-		cost:15 loot
+		cost:10 loot
 		on tick:yield 0.1 loot
 		unlocked
 
@@ -105,10 +105,10 @@ Upgrades
 
 
 	*mahagoniBox
-		name:hardwood Box
+		name:mahagoni Box
 		desc:A strong and beautiful wooden box, perfect for hight quality loot.<//><b>Effect:</b><.>+2 loot/click<.>+0.2 loot/Crate
 		icon:icons[2,3]
-		cost:4000 loot
+		cost:2000 loot
 		passive:increase loot yield of lootBoxButton by 2
 		passive:increase loot yield of simpleCrate by 0.2
 		req:1000 loot:earned and hardwoodBox
@@ -122,14 +122,14 @@ Upgrades
 			$bonusgift=0.1*(simpleCrate)
 			increase loot yield of lootBoxButton by $bonusgift
 		end
-		req:1000 loot:earned and hardwoodBox
+		req:2000 loot:earned
 
 	//gacha upgrades
 
 	*moreVendingMachines
 		name:more Vending Machines
-		desc:More Vendors = more Gacha!<//><b>Effect:</b><.>+2 loot/click<.>+0.2 loot/Gacha Machine
-		icon:icons[2,0]
+		desc:More Vendors = more Gacha!<//><b>Effect:</b><.>+1 loot/sec
+		icon:icons[0,2]
 		cost:1000 loot
 		passive:increase loot yield of gachapon by 1
 		req:500 loot:earned and gachapon
