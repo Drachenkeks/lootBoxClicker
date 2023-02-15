@@ -168,13 +168,13 @@ Achievements
 
 	//Gachapon Machine
 
-	*crateAchiev1
+	*gachaAchiev1
 		name:Gacha!
 		desc:Have <b>1</b> Gacha Machine.
 		req:1 gachapon
 		icon:icons[3,0] icons[0,1]
 
-	*crateAchiev100
+	*gachaAchiev100
 		name:Gachapon!
 		desc:Have <b>100</b> Gacha Machines.
 		req:100 gachapon
