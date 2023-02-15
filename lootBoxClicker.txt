@@ -22,7 +22,7 @@ Buttons
 		desc:Open the box to get loot.
 		on click:anim icon wobble
 		on click:yield 1 loot
-		icon:https://github.com/Drachenkeks/lootBoxClicker/blob/main/chest.png?raw=true
+		icon:https://github.com/Drachenkeks/lootBoxClicker/blob/main/chest.png
 		no text
 		class:bigButton hasFlares
 		icon class:shadowed
