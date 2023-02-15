@@ -37,17 +37,3 @@ Resources
 		class:noBackground
 		show earned
 
-Shinies
-	*luckyLootBox
-		on click:log Woop
-		movement:anywhere
-		frequency:60
-		frequency variation:30
-		icon:icons[2,0]
-		//class:bigButton
-		on click:
-			//get at least 7, or between 1 and 3 minutes of our loot production
-			$amount=max(7,random(bunnies:ps*60*1,bunnies:ps*60*3))*1
-			toast The lucky bunny grants you<//><b>[$amount] loot</b>.
-			yield $amount loot
-		end
