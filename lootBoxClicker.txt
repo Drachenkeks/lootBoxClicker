@@ -44,7 +44,6 @@ Shinies
 		frequency:130
 		frequency variation:30
 		icon:icons[2,0]
-		//class:bigButton
 		on click:
 			//get at least 7, or between 1 and 3 minutes of our loot production
 			$amount=max(7,random(loot:ps*60*1,loot:ps*60*3))*1.1
@@ -119,7 +118,10 @@ Upgrades
 		desc:Thanks for your purchases, here is a little gift for you.<//><b>Effect:</b><.>+0.1 loot/click/Loot Crate owned
 		icon:icons[1,3]
 		cost:4000 loot
-		passive:increase loot yield of lootBoxButton by 0.1*simpleCrate:owned
+		passive:
+			$bonusgift=0.1*(simpleCrate)
+			increase loot yield of lootBoxButton by $bonusgift
+		end
 		req:1000 loot:earned and hardwoodBox
 
 	//gacha upgrades
