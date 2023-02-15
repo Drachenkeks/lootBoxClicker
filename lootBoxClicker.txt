@@ -111,11 +111,11 @@ Achievements
 	*crateAchiev1
 		name:A Box
 		desc:Have <b>1</b> Crate.
-		req:1 simpleCrate|simpleCrates
+		req:1 simpleCrate
 		icon:icons[0,0] icons[0,1]
 
 	*crateAchiev10
 		name:Boxen!
 		desc:Have <b>10</b> Crates.
-		req:10 simpleCrate|simpleCrates
+		req:10 simpleCrate
 		icon:icons[0,0] icons[1,1]
