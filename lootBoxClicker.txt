@@ -10,7 +10,7 @@ Settings
 	background:https://orteil.dashnet.org/igm/img/crunchyBGdark.jpg
 	building cost increase:115%
 	building cost refund:50%
-	spritesheet:icons, 48 by 48, https://github.com/Drachenkeks/lootBoxClicker/blob/main/Icons.png
+	spritesheet:Icons, 48 by 48, https://github.com/Drachenkeks/lootBoxClicker/blob/main/Icons.png
 	stylesheet:stuff/basic.css
 
 Layout
@@ -22,7 +22,7 @@ Buttons
 		desc:Open the box to get loot.
 		on click:anim icon wobble
 		on click:yield 1 loot
-		icon:https://github.com/Drachenkeks/lootBoxClicker/blob/main/chest.png
+		icon:https://github.com/Drachenkeks/lootBoxClicker/blob/main/chest.png?raw=true
 		no text
 		class:bigButton hasFlares
 		icon class:shadowed
@@ -33,6 +33,6 @@ Resources
 	*loot|loot
 		name:Loot|Loot
 		desc:This is your loot. You can use it to purchase things. Your goal is to have as much loot as possible!
-		icon:icons[0,1]
+		icon:Icons[0,1]
 		class:noBackground
 		show earned
