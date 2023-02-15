@@ -121,7 +121,6 @@ Upgrades
 		passive:
 			$bonusgift=(simpleCrate)
 			increase loot yield of lootBoxButton by $bonusgift
-		end
 		req:2000 loot:earned
 
 	//gacha upgrades
