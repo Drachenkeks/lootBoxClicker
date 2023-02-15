@@ -55,7 +55,7 @@ Buildings
 	*TEMPLATE
 		on click:anim glow
 
-	*simpleCrate|simpleCrates
+	*simpleCrate
 		name:Loot Crate|Loot Crates
 		desc:A simple Loot Crate, nothing fancy.<//><b>Effect:</b><.>Produces 1 loot every 10 seconds.
 		icon:icons[0,0]
@@ -118,7 +118,7 @@ Upgrades
 		desc:Thanks for your purchases, here is a little gift for you.<//><b>Effect:</b><.>+0.1 loot/click/Loot Crate owned
 		icon:icons[1,3]
 		cost:4000 loot
-		passive:increase loot yield of lootBoxButton by (simpleCrate)*0.1
+		passive:increase loot yield of lootBoxButton by (simpleCrate*0.1)
 		req:2000 loot:earned
 
 	//gacha upgrades
