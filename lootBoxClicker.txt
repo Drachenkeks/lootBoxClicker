@@ -1,0 +1,38 @@
+Let's make a game!
+	name:Loot Box Clicker
+	by:Drachenkeks
+	desc:A game about "Surprise Mechanics"
+	created:15/02/2023
+	updated:15/02/2023
+	version:0.4
+
+Settings
+	background:stuff/meadow.jpg
+	building cost increase:115%
+	building cost refund:50%
+	spritesheet:icons, 48 by 48, https://github.com/Drachenkeks/lootBoxClicker/blob/main/Icons.png
+	stylesheet:stuff/basic.css
+
+Layout
+	use default
+		
+Buttons
+	*lootBoxButton
+		name:get loot
+		desc:Open the box to get loot.
+		on click:anim icon wobble
+		on click:yield 1 loot
+		icon:https://github.com/Drachenkeks/lootBoxClicker/blob/main/chest.png
+		no text
+		class:bigButton hasFlares
+		icon class:shadowed
+		tooltip origin:bottom
+		tooltip class:red
+		
+Resources
+	*loot|loot
+		name:Loot|Loot
+		desc:This is your loot. You can use it to purchase things. Your goal is to have as much loot as possible!
+		icon:icons[0,1]
+		class:noBackground
+		show earned
