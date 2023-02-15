@@ -121,7 +121,7 @@ Upgrades
 		cost:4000 loot
 		passive:multiply loot yield of lootBoxButton by 1.01
 		passive:multiply loot yield of simpleCrate by 1.1
-		req:2000 loot:earned and mahagonyBox
+		req:2000 loot:earned and mahagoniBox
 
 	*bonusGift
 		name:Bonus Loot
