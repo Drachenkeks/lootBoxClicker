@@ -7,7 +7,7 @@ Let's make a game!
 	version:0-5
 
 Settings
-	tiling background:orteil.dashnet.org/igm/img/crunchyBGdark.jpg
+	tiling background:https://orteil.dashnet.org/igm/img/crunchyBGdark.jpg
 	building cost increase:115%
 	building cost refund:50%
 	spritesheet:Icons, 48 by 48, https://github.com/Drachenkeks/lootBoxClicker/blob/main/Icons.png?raw=true
@@ -22,7 +22,7 @@ Buttons
 		desc:Open the box to get loot.
 		on click:anim icon wobble
 		on click:yield 1 loot
-		icon:https://github.com/Drachenkeks/lootBoxClicker/blob/main/chest.png?raw=true
+		icon:github.com/Drachenkeks/lootBoxClicker/blob/main/chest.png?raw=true
 		no text
 		class:bigButton hasFlares
 		icon class:shadowed
