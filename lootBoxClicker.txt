@@ -217,6 +217,22 @@ Upgrades
 		passive:increase loot yield of toyStore by 15
 		req:15000 loot:earned and boosterPacks
 
+	*superRares
+		name:super Rares
+		desc:Super rare, highly desired.<//><b>Effect:</b><.>+15 loot/sec
+		icon:icons[0,3]
+		cost:50000 loot
+		passive:increase loot yield of toyStore by 15
+		req:25000 loot:earned and holoCards
+
+	*limitedCards
+		name:limited edition Specials
+		desc:Only a few of these are ever printed in any new edition, and their value only ever rises.<//><b>Effect:</b><.>loot/sec x3
+		icon:icons[9,2]
+		cost:80000 loot
+		passive:multiply loot yield of toyStore by 3
+		req:40000 loot:earned and superRares
+
 Achievements
 	*TEMPLATE
 		on click:anim glow
