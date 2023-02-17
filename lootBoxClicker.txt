@@ -4,7 +4,7 @@ Let's make a game!
 	desc:A game about "Surprise Mechanics"
 	created:15/02/2023
 	updated:15/02/2023
-	version:10
+	version:11
 
 Settings
 	tiling background:https://orteil.dashnet.org/igm/img/crunchyBGdark.jpg
@@ -57,7 +57,7 @@ Buildings
 
 	*simpleCrate
 		name:Loot Crate|Loot Crates
-		desc:A simple Loot Crate, nothing fancy.<//><b>Effect:</b><.>Produces 1 loot every 10 seconds.
+		desc:A simple Loot Crate, nothing fancy.<//><b>Effect:</b><.>Produces 0.1 loot every 10 seconds.
 		icon:icons[0,0]
 		cost:10 loot
 		on tick:yield 0.1 loot
@@ -103,6 +103,33 @@ Buildings
 		cost:1500000 loot
 		on tick:yield 1300 loot
 		req:800000 loot:earned
+
+	*bureau
+		name:Loot Engineering Bureau|Loot Engineering Bureaus
+		desc:Loot engineers make improvements to loot technologies.<//><b>Effect:</b><.>Produces 6500 loot every seconds.
+		icon:icons[9,3]
+		cost:16500000 loot
+		on tick:yield 6500 loot
+		req:8000000 loot:earned
+
+	*bank
+		name:Loot Bank|Loot Banks
+		desc:Bankers manage currency flow and the loot market.<//><b>Effect:</b><.>Produces 32000 loot every seconds.
+		icon:icons[0,4]
+		cost:181500000 loot
+		on tick:yield 32000 loot
+		req:60000000 loot:earned
+
+	*labs
+		name:Loot Lab|Loot Labs
+		desc:Science breaks down even the deepest mysteries of the lootiverse.<//><b>Effect:</b><.>Produces 160000 loot every seconds.
+		icon:icons[1,4]
+		cost:1900600000 loot
+		on tick:yield 160000 loot
+		req:900000000 loot:earned
+
+	
+
 Upgrades
 	*TEMPLATE
 		on click:anim glow
@@ -147,11 +174,11 @@ Upgrades
 
 	*boxPlating
 		name:Box Plating
-		desc:Plating the boxes with metal increases theyr carrying capacity.<//><b>Effect:</b><.>loot/click x1.1<.>loot/sec x1.1
+		desc:Plating the boxes with metal increases theyr carrying capacity.<//><b>Effect:</b><.>loot/click x2<.>loot/sec x2
 		icon:icons[8,2]
 		cost:4000 loot
-		passive:multiply loot yield of lootBoxButton by 1.1
-		passive:multiply loot yield of simpleCrate by 1.1
+		passive:multiply loot yield of lootBoxButton by 2
+		passive:multiply loot yield of simpleCrate by 2
 		req:2000 loot:earned and mahagoniBox
 
 	*bonusGift
