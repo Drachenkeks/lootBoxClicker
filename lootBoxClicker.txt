@@ -68,7 +68,7 @@ Buildings
 		name:Gacha Machine|Gacha Machines
 		desc:Small vending machines, dispensing little, loot filled capsules.<//><b>Effect:</b><.>Produces 1 loot every seconds.
 		icon:icons[3,0]
-		cost:100 loot
+		cost:110 loot
 		on tick:yield 1 loot
 		req:60 loot:earned
 
@@ -76,10 +76,33 @@ Buildings
 		name:Toy Store|Toy Stores
 		desc:Collectables and Surprise Toys can be bought here.<//><b>Effect:</b><.>Produces 10 loot every seconds.
 		icon:icons[7,2]
-		cost:1100 loot
+		cost:1200 loot
 		on tick:yield 10 loot
 		req:600 loot:earned
 
+	*farm
+		name:Loot Farm|Loot Farms
+		desc:Grows loot-crops.<//><b>Effect:</b><.>Produces 50 loot every seconds.
+		icon:icons[6,3]
+		cost:13000 loot
+		on tick:yield 50 loot
+		req:6000 loot:earned
+
+	*mine
+		name:Loot Mine|Loot Mines
+		desc:Mines loot from the ground.<//><b>Effect:</b><.>Produces 250 loot every seconds.
+		icon:icons[7,3]
+		cost:140000 loot
+		on tick:yield 250 loot
+		req:70000 loot:earned
+
+	*uni
+		name:University of Looting|Universities of Looting
+		desc:The fundamentals of loot are studiet here.<//><b>Effect:</b><.>Produces 1300 loot every seconds.
+		icon:icons[8,3]
+		cost:1500000 loot
+		on tick:yield 1300 loot
+		req:800000 loot:earned
 Upgrades
 	*TEMPLATE
 		on click:anim glow
