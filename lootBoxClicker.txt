@@ -4,7 +4,7 @@ Let's make a game!
 	desc:A game about "Surprise Mechanics"
 	created:15/02/2023
 	updated:15/02/2023
-	version:1.4
+	version:1.5
 
 Settings
 	tiling background:https://orteil.dashnet.org/igm/img/crunchyBGdark.jpg
@@ -313,13 +313,13 @@ Achievements
 	*lootAchiev1.000
 		name:It aint honest, but it's much.
 		desc:Have <b>1000</b> loot.
-		req:1.000 loot
+		req:1000 loot
 		icon:icons[1,0] icons[3,1]
 
 	*lootAchiev10.000
 		name:A small fortune.
 		desc:Have <b>10000</b> loot.
-		req:10.000 loot
+		req:10000 loot
 		icon:icons[1,0] icons[4,1]
 
 	*lootAchiev100.000
@@ -331,7 +331,7 @@ Achievements
 	*lootAchiev1.000.000
 		name:One in a Million.
 		desc:Have <b>1000000</b> loot.
-		req:1.000.000 loot
+		req:1000000 loot
 		icon:icons[1,0] icons[6,1]
 
 	//Crates
