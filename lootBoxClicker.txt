@@ -4,14 +4,15 @@ Let's make a game!
 	desc:A game about "Surprise Mechanics"
 	created:15/02/2023
 	updated:26/02/2023
-	version:25
+	version:26
 
 Settings
 	tiling background:https://orteil.dashnet.org/igm/img/crunchyBGdark.jpg
-	building cost increase:115%
-	building cost refund:50%
+	building cost increase:112%
+	building cost refund:55%
 	spritesheet:icons, 48 by 48, https://github.com/Drachenkeks/lootBoxClicker/blob/main/Icons.png?raw=true
-	stylesheetstuff/basic.css
+	//stylesheet:stuff/basic.css
+	stylesheet:https://github.com/Drachenkeks/lootBoxClicker/blob/main/lootstyle.css
 
 Layout
 	use default
@@ -355,13 +356,13 @@ Achievements
 		name:Gacha!
 		desc:Have <b>1</b> Gacha Machine.
 		req:1 gacha
-		icon:icons[0,2] icons[0,1]
+		icon:icons[0,2] icons[1,0]
 
 	*gachaAchiev100
 		name:Gachapon!
 		desc:Have <b>100</b> Gacha Machines.
 		req:100 gacha
-		icon:icons[1,2] icons[0,1]
+		icon:icons[1,2] icons[1,0]
 
 	//Loot Store
 
@@ -369,10 +370,10 @@ Achievements
 		name:Funhouse
 		desc:Have <b>1</b> Loot Store.
 		req:1 lootstore
-		icon:icons[0,2] icons[0,2]
+		icon:icons[0,2] icons[2,0]
 
 	*toyAchiev100
 		name:Pocket Money Graveyard
 		desc:Have <b>100</b> Loot Stores.
 		req:100 lootstore
-		icon:icons[1,2] icons[0,2]
+		icon:icons[1,2] icons[2,0]
