@@ -4,7 +4,7 @@ Let's make a game!
 	desc:A game about "Surprise Mechanics"
 	created:15/02/2023
 	updated:26/02/2023
-	version:24
+	version:25
 
 Settings
 	tiling background:https://orteil.dashnet.org/igm/img/crunchyBGdark.jpg
@@ -341,13 +341,13 @@ Achievements
 		name:A Box
 		desc:Have <b>1</b> Loot Crate.
 		req:1 crate
-		icon:icons[0,0] icons[0,1]
+		icon:icons[0,2] icons[0,0]
 
 	*crateAchiev100
 		name:Boxen
 		desc:Have <b>100</b> Loot Crates.
 		req:100 crate
-		icon:icons[0,0] icons[1,1]
+		icon:icons[1,2] icons[0,0]
 
 	//Gachapon Machine
 
@@ -355,13 +355,13 @@ Achievements
 		name:Gacha!
 		desc:Have <b>1</b> Gacha Machine.
 		req:1 gacha
-		icon:icons[3,0] icons[0,1]
+		icon:icons[0,2] icons[0,1]
 
 	*gachaAchiev100
 		name:Gachapon!
 		desc:Have <b>100</b> Gacha Machines.
 		req:100 gacha
-		icon:icons[3,0] icons[1,1]
+		icon:icons[1,2] icons[0,1]
 
 	//Loot Store
 
@@ -369,10 +369,10 @@ Achievements
 		name:Funhouse
 		desc:Have <b>1</b> Loot Store.
 		req:1 lootstore
-		icon:icons[7,2] icons[0,1]
+		icon:icons[0,2] icons[0,2]
 
 	*toyAchiev100
 		name:Pocket Money Graveyard
 		desc:Have <b>100</b> Loot Stores.
 		req:100 lootstore
-		icon:icons[7,2] icons[1,1]
+		icon:icons[1,2] icons[0,2]
