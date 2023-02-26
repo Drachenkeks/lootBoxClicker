@@ -4,7 +4,7 @@ Let's make a game!
 	desc:A game about "Surprise Mechanics"
 	created:15/02/2023
 	updated:26/02/2023
-	version:26
+	version:27
 
 Settings
 	tiling background:https://orteil.dashnet.org/igm/img/crunchyBGdark.jpg
@@ -12,7 +12,7 @@ Settings
 	building cost refund:55%
 	spritesheet:icons, 48 by 48, https://github.com/Drachenkeks/lootBoxClicker/blob/main/Icons.png?raw=true
 	//stylesheet:stuff/basic.css
-	stylesheet:https://github.com/Drachenkeks/lootBoxClicker/blob/main/lootstyle.css
+	stylesheet:https://raw.githubusercontent.com/Drachenkeks/lootBoxClicker/main/lootstyle.css
 
 Layout
 	use default
