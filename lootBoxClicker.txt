@@ -76,7 +76,7 @@ Buildings
 		on tick:yield 2 loot
 		req:10 loot:earned
 
-	*store
+	*lootstore
 		name:Loot Store|Loot Stores
 		desc:.<//><b>Effect:</b><.>Produces 10 loot every seconds.
 		icon:icons[2,0]
