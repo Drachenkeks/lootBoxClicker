@@ -79,7 +79,7 @@ Buildings
 		name:Toy Store|Toy Stores
 		desc:Collectables and Surprise Toys can be bought here.<//><b>Effect:</b><.>Produces 10 loot every seconds.
 		icon:icons[7,2]
-		cost:1200 loot
+		cost:1.200 loot
 		on tick:yield 10 loot
 		req:600 loot:earned
 
