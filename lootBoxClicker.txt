@@ -114,8 +114,8 @@ Buildings
 		icon:icons[6,0]
 		cost:16.000.000 loot
 		on tick:yield 6.250 loot
-		req:1.500.000 loot:earned
-
+		req:1500000 loot:earned
+		
 	*uni
 		name:University of Looting|Universities of Looting
 		desc:.<//><b>Effect:</b><.>Produces 31.250 loot every seconds.
