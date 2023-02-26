@@ -4,17 +4,20 @@ Let's make a game!
 	desc:A game about "Surprise Mechanics"
 	created:15/02/2023
 	updated:26/02/2023
-	version:21
+	version:23
 
 Settings
 	tiling background:https://orteil.dashnet.org/igm/img/crunchyBGdark.jpg
 	building cost increase:115%
 	building cost refund:50%
 	spritesheet:icons, 48 by 48, https://github.com/Drachenkeks/lootBoxClicker/blob/main/Icons.png?raw=true
-	stylesheet:stuff/basic.css
+	stylesheet:https://raw.githubusercontent.com/Drachenkeks/lootBoxClicker/main/lootstyle.css
 
 Layout
 	use default
+	*achievs
+    	in:main
+    	contains:Achievements
 		
 Buttons
 	*lootBoxButton
@@ -113,7 +116,7 @@ Buildings
 		name:Church of Chance|Churches of Chance
 		desc:.<//><b>Effect:</b><.>Produces 6.250 Loot/Second.
 		icon:icons[6,0]
-		cost:16000.000 loot
+		cost:16000000 loot
 		on tick:yield 6250 loot
 		req:1500000 loot:earned
 
