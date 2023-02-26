@@ -15,7 +15,11 @@ Settings
 	//stylesheet:https://raw.githubusercontent.com/Drachenkeks/lootBoxClicker/main/lootstyle.css
 
 CSS
-	.thing
+#game
+  {
+    font-family:monospace, monospace;
+  }
+.thing,.box-header,.box-footer,.box-bit
   {
     border-radius:8px;
   }
