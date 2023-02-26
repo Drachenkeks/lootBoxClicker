@@ -4,7 +4,7 @@ Let's make a game!
 	desc:A game about "Surprise Mechanics"
 	created:15/02/2023
 	updated:26/02/2023
-	version:30
+	version:31
 
 Settings
 	tiling background:https://orteil.dashnet.org/igm/img/crunchyBGdark.jpg
@@ -69,11 +69,11 @@ Buildings
 
 	*crate
 		name:Loot Crate|Loot Crates
-		desc:A simple Loot Crate. Contains Loot.<//><b>Effect:</b><.>Produces 0.1 Loot/Second.<.>Increases Loot/Click by 0.1
+		desc:A simple Loot Crate. Contains Loot.<//><b>Effect:</b><.>Produces 0.1 Loot/Second.<.>Increases Loot/Click by 1.1
 		icon:icons[0,0]
 		cost:10 loot
 		on tick:yield 0.1 loot
-		passive:increase loot yield of lootBoxButton by 0.1
+		passive:increase loot yield of lootBoxButton by 1.1
 		//passive:if (have woodenBox) increase loot yield of simpleCrate by 0.1
 		//passive:if (have hardwoodBox) increase loot yield of simpleCrate by 0.1
 		//passive:if (have mahagoniBox) increase loot yield of simpleCrate by 0.2
