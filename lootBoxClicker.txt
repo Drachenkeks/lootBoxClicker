@@ -4,7 +4,7 @@ Let's make a game!
 	desc:A game about "Surprise Mechanics"
 	created:15/02/2023
 	updated:15/02/2023
-	version:1.5
+	version:1.7
 
 Settings
 	tiling background:https://orteil.dashnet.org/igm/img/crunchyBGdark.jpg
@@ -296,56 +296,56 @@ Achievements
 		name:One small step...
 		desc:Have <b>1</b> loot.
 		req:1 loot
-		icon:icons[1,0] icons[0,1]
+		icon:icons[0,2] icons[0,3]
 
 	*lootAchiev10
 		name:Dekagon
 		desc:Have <b>10</b> loot.
 		req:10 loot
-		icon:icons[1,0] icons[1,1]
+		icon:icons[1,2] icons[0,3]
 
 	*lootAchiev100
 		name:Pocket Money
 		desc:Have <b>100</b> loot.
 		req:100 loot
-		icon:icons[1,0] icons[2,1]
+		icon:icons[2,2] icons[0,3]
 
 	*lootAchiev1.000
 		name:It aint honest, but it's much.
 		desc:Have <b>1000</b> loot.
 		req:1000 loot
-		icon:icons[1,0] icons[3,1]
+		icon:icons[3,2] icons[0,3]
 
 	*lootAchiev10.000
 		name:A small fortune.
 		desc:Have <b>10000</b> loot.
 		req:10000 loot
-		icon:icons[1,0] icons[4,1]
+		icon:icons[4,2] icons[0,3]
 
 	*lootAchiev100.000
 		name:I'm loot, dabadi dabadei~
 		desc:Have <b>100000</b> loot.
 		req:100.000 loot
-		icon:icons[1,0] icons[5,1]
+		icon:icons[5,2] icons[0,3]
 
 	*lootAchiev1.000.000
 		name:One in a Million.
 		desc:Have <b>1000000</b> loot.
 		req:1000000 loot
-		icon:icons[1,0] icons[6,1]
+		icon:icons[6,2] icons[0,3]
 
 	//Crates
 
 	*crateAchiev1
 		name:A Box
-		desc:Have <b>1</b> Crate.
-		req:1 simpleCrate
+		desc:Have <b>1</b> Loot Crate.
+		req:1 crate
 		icon:icons[0,0] icons[0,1]
 
 	*crateAchiev100
-		name:Boxen!
-		desc:Have <b>100</b> Crates.
-		req:100 simpleCrate
+		name:Boxen
+		desc:Have <b>100</b> Loot Crates.
+		req:100 crate
 		icon:icons[0,0] icons[1,1]
 
 	//Gachapon Machine
@@ -353,13 +353,13 @@ Achievements
 	*gachaAchiev1
 		name:Gacha!
 		desc:Have <b>1</b> Gacha Machine.
-		req:1 gachapon
+		req:1 gacha
 		icon:icons[3,0] icons[0,1]
 
 	*gachaAchiev100
 		name:Gachapon!
 		desc:Have <b>100</b> Gacha Machines.
-		req:100 gachapon
+		req:100 gacha
 		icon:icons[3,0] icons[1,1]
 
 	//Loot Store
@@ -367,11 +367,11 @@ Achievements
 	*toyAchiev1
 		name:Funhouse
 		desc:Have <b>1</b> Loot Store.
-		req:1 toyStore
+		req:1 lootstore
 		icon:icons[7,2] icons[0,1]
 
 	*toyAchiev100
 		name:Pocket Money Graveyard
 		desc:Have <b>100</b> Loot Stores.
-		req:100 toyStore
+		req:100 lootstore
 		icon:icons[7,2] icons[1,1]
