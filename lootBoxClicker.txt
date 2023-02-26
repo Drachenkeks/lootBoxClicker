@@ -15,9 +15,6 @@ Settings
 
 Layout
 	use default
-	*achievs
-    	in:main
-    	contains:Achievements
 		
 Buttons
 	*lootBoxButton
