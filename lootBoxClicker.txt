@@ -170,7 +170,7 @@ Buildings
 		icon:icons[3,1]
 		cost:230000000000000 loot
 		on tick:yield 488281250 loot
-		req:22.000000000000 loot:earned
+		req:22000000000000 loot:earned
 
 	*data
 		name:Loot Data Center|Loot Data Centers
