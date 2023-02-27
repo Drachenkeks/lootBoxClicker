@@ -69,7 +69,7 @@ Buildings
 		cost:10 loot
 		on tick:yield 0.1 loot
 		passive:increase loot yield of lootBoxButton by 1.1
-		passive:increase loot yield of lootBoxButton by (loot:ps*0.1)
+		passive:increase loot yield of lootBoxButton by loot:ps
 		//passive:if (have woodenBox) increase loot yield of simpleCrate by 0.1
 		//passive:if (have hardwoodBox) increase loot yield of simpleCrate by 0.1
 		//passive:if (have mahagoniBox) increase loot yield of simpleCrate by 0.2
