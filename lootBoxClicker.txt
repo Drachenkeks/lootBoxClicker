@@ -4,7 +4,7 @@ Let's make a game!
 	desc:A game about "Surprise Mechanics"
 	created:15/02/2023
 	updated:26/02/2023
-	version:32
+	version:33
 
 Settings
 	tiling background:https://orteil.dashnet.org/igm/img/crunchyBGdark.jpg
@@ -15,11 +15,6 @@ Settings
 	//stylesheet:https://raw.githubusercontent.com/Drachenkeks/lootBoxClicker/main/lootstyle.css
 
 CSS
-#game
-  {
-    //font-size:16px;
-    //font-family:monospace, monospace;
-  }
 .thing,.box-header,.box-footer,.box-bit
   {
     border-radius:8px;
@@ -74,6 +69,7 @@ Buildings
 		cost:10 loot
 		on tick:yield 0.1 loot
 		passive:increase loot yield of lootBoxButton by 1.1
+		passive:increase loot yield of lootBoxButton by (loot:ps*0.1)
 		//passive:if (have woodenBox) increase loot yield of simpleCrate by 0.1
 		//passive:if (have hardwoodBox) increase loot yield of simpleCrate by 0.1
 		//passive:if (have mahagoniBox) increase loot yield of simpleCrate by 0.2
@@ -115,7 +111,7 @@ Buildings
 
 	*factory
 		name:Loot Factory|Loot Factories
-		desc:.<//><b>Effect:</b><.>Produces 1250 Loot/Second.
+		desc:.<//><b>Effect:</b><.>Produces 1.250 Loot/Second.
 		icon:icons[5,0]
 		cost:1500000 loot
 		on tick:yield 1250 loot
@@ -240,7 +236,7 @@ Upgrades
 
 	//Crate upgrades
 
-	//*simpleBox
+	//*paperBox
 		//name:paper Box
 		//desc:A humble paper carton. Nothing fancy, but it holds loot.<//><b>Effect:</b><.>+1 loot/click
 		//icon:icons[4,0]
@@ -364,15 +360,21 @@ Achievements
 	//Gachapon Machine
 
 	*gachaAchiev1
-		name:Gacha!
+		name:Gachapon
 		desc:Have <b>1</b> Gacha Machine.
 		req:1 gacha
 		icon:icons[0,2] icons[1,0]
 
 	*gachaAchiev100
-		name:Gachapon!
+		name:Gumball Empire
 		desc:Have <b>100</b> Gacha Machines.
 		req:100 gacha
+		icon:icons[1,2] icons[1,0]
+
+	*gachaAchiev151
+		name:GachaMon
+		desc:Have <b>151</b> Gacha Machines. Gotta collect them all!
+		req:151 gacha
 		icon:icons[1,2] icons[1,0]
 
 	//Loot Store
