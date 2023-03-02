@@ -4,7 +4,7 @@ Let's make a game!
 	desc:A game about "Surprise Mechanics"
 	created:15/02/2023
 	updated:27/02/2023
-	version:38
+	version:39
 
 Settings
 	tiling background:https://orteil.dashnet.org/igm/img/crunchyBGdark.jpg
@@ -29,6 +29,18 @@ Buttons
 		desc:Open the box to get loot.
 		on click:anim icon wobble
 		on click:yield 1 loot
+		icon:https://github.com/Drachenkeks/lootBoxClicker/blob/main/chest.png?raw=true
+		no text
+		class:bigButton hasFlares
+		icon class:shadowed
+		tooltip origin:bottom
+		tooltip class:red
+
+	*testButton
+		name:get loots
+		desc:Open the box to get loot.
+		on click:anim icon wobble
+		on click:yield 10 loot
 		icon:https://github.com/Drachenkeks/lootBoxClicker/blob/main/chest.png?raw=true
 		no text
 		class:bigButton hasFlares
