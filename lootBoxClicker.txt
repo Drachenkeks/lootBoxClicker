@@ -36,17 +36,6 @@ Buttons
 		tooltip origin:bottom
 		tooltip class:red
 
-	*testButton
-		name:get loots
-		desc:Open the box to get loot.
-		on click:anim icon wobble
-		on click:yield 10 loot
-		icon:https://github.com/Drachenkeks/lootBoxClicker/blob/main/chest.png?raw=true
-		no text
-		class:bigButton hasFlares
-		icon class:shadowed
-		tooltip origin:bottom
-		tooltip class:red
 		
 Resources
 	*loot|loot
