@@ -4,7 +4,7 @@ Let's make a game!
 	desc:A game about "Surprise Mechanics"
 	created:15/02/2023
 	updated:27/02/2023
-	version:53
+	version:54
 
 Settings
 	tiling background:https://orteil.dashnet.org/igm/img/crunchyBGdark.jpg
@@ -313,7 +313,7 @@ Upgrades
 	*cropRotation
 		name:Crop Rotation
 		desc:Switching the grown crop after every harvest increases farms yield.<//><b>Effect:</b><.>Loot/Farm x2
-		icon:icons[0,9]
+		icon:icons[0,8]
 		cost:130000 loot
 		passive:multiply loot yield of farm by 2
 		req:100000 loot:earned and farm>=10
