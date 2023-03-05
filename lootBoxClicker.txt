@@ -4,7 +4,7 @@ Let's make a game!
 	desc:A game about "Surprise Mechanics"
 	created:15/02/2023
 	updated:27/02/2023
-	version:52
+	version:53
 
 Settings
 	tiling background:https://orteil.dashnet.org/igm/img/crunchyBGdark.jpg
@@ -243,7 +243,7 @@ Upgrades
 	*paperBox
 		name:Paper Box
 		desc:A humble paper carton. Nothing fancy, but it holds loot.<//><b>Effect:</b><.>Loot/Click +20%<.>Loot/Crate x2
-		icon:icons[0,4]
+		icon:icons[0,6]
 		cost:100 loot
 		passive:multiply loot yield of lootBoxButton by 1.2
 		passive:multiply loot yield of crate by 2
@@ -252,7 +252,7 @@ Upgrades
 	*woodenBox
 		name:Wooden Box
 		desc:A sturdy wooden Box, made for shipping.<//><b>Effect:</b><.>Loot/Click +20%<.>Loot/Crate x2
-		icon:icons[1,4]
+		icon:icons[1,6]
 		cost:1500 loot
 		passive:multiply loot yield of lootBoxButton by 1.2
 		passive:multiply loot yield of crate by 2
@@ -261,7 +261,7 @@ Upgrades
 	*hardwoodBox
 		name:Hardwood Box
 		desc:A hardy wooden box, capable of securely transporting loot.<//><b>Effect:</b><.>Loot/Click +20%<.>Loot/Crate x2
-		icon:icons[2,4]
+		icon:icons[2,6]
 		cost:22500 loot
 		passive:multiply loot yield of lootBoxButton by1.2
 		passive:multiply loot yield of crate by 2
@@ -271,7 +271,7 @@ Upgrades
 	*mahagoniBox
 		name:Mahagoni Box
 		desc:A strong and beautiful wooden box, perfect for hight quality loot.<//><b>Effect:</b><.>Loot/Click +20%<.>Loot/Crate x2
-		icon:icons[3,4]
+		icon:icons[3,6]
 		cost:337500 loot
 		passive:multiply loot yield of lootBoxButton by 1.2
 		passive:multiply loot yield of crate by 2
@@ -280,7 +280,7 @@ Upgrades
 	*ebonwoodBox
 		name:Ebonwood Box
 		desc:Made from the finest quality of wood, only for the highest quality of loot.<//><b>Effect:</b><.>Loot/Click +30%<.>Loot/Crate x2
-		icon:icons[4,4]
+		icon:icons[4,6]
 		cost:5062500 loot
 		passive:multiply loot yield of lootBoxButton by 1.3
 		passive:multiply loot yield of crate by 2
@@ -307,6 +307,16 @@ Upgrades
 	//gacha upgrades
 
 	//toy store upgrades
+
+	//Farm Upgrades
+
+	*cropRotation
+		name:Crop Rotation
+		desc:Switching the grown crop after every harvest increases farms yield.<//><b>Effect:</b><.>Loot/Farm x2
+		icon:icons[0,9]
+		cost:130000 loot
+		passive:multiply loot yield of farm by 2
+		req:100000 loot:earned and farm>=10
 
 
 Achievements
