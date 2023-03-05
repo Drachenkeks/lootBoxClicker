@@ -4,7 +4,7 @@ Let's make a game!
 	desc:A game about "Surprise Mechanics"
 	created:15/02/2023
 	updated:27/02/2023
-	version:42
+	version:43
 
 Settings
 	tiling background:https://orteil.dashnet.org/igm/img/crunchyBGdark.jpg
@@ -248,7 +248,7 @@ Upgrades
 	*woodenBox
 		name:Wooden Box
 		desc:A sturdy wooden Box, made for shipping.<//><b>Effect:</b><.>x2 Loot/Click<.>x2 Loot/Crate
-		icon:icons[5,0]
+		icon:icons[1,4]
 		cost:500 loot
 		passive:multiply loot yield of lootBoxButton by 2
 		passive:multiply loot yield of crate by 2
@@ -257,7 +257,7 @@ Upgrades
 	*hardwoodBox
 		name:Hardwood Box
 		desc:A hardy wooden box, capable of securely transporting loot.<//><b>Effect:</b><.>x2 Loot/Click<.>x2 Loot/Crate
-		icon:icons[6,0]
+		icon:icons[2,4]
 		cost:2500 loot
 		passive:multiply loot yield of lootBoxButton by 2
 		passive:multiply loot yield of crate by 2
@@ -267,7 +267,7 @@ Upgrades
 	*mahagoniBox
 		name:Mahagoni Box
 		desc:A strong and beautiful wooden box, perfect for hight quality loot.<//><b>Effect:</b><.>x2 Loot/Click<.>x2 Loot/Crate
-		icon:icons[2,3]
+		icon:icons[3,4]
 		cost:12500 loot
 		passive:multiply loot yield of lootBoxButton by 2
 		passive:multiply loot yield of crate by 2
@@ -276,7 +276,7 @@ Upgrades
 	*ebonwoodBox
 		name:Ebonwood Box
 		desc:Made from the finest quality of wood, only for the highest quality of loot.<//><b>Effect:</b><.>x2 Loot/Click<.>x2 Loot/Crate
-		icon:icons[2,3]
+		icon:icons[5,4]
 		cost:62500 loot
 		passive:multiply loot yield of lootBoxButton by 2
 		passive:multiply loot yield of crate by 2
