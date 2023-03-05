@@ -4,11 +4,11 @@ Let's make a game!
 	desc:A game about "Surprise Mechanics"
 	created:15/02/2023
 	updated:27/02/2023
-	version:45
+	version:47
 
 Settings
 	tiling background:https://orteil.dashnet.org/igm/img/crunchyBGdark.jpg
-	building cost increase:109%
+	building cost increase:115%
 	building cost refund:55%
 	spritesheet:icons, 48 by 48, https://github.com/Drachenkeks/lootBoxClicker/blob/main/Icons.png?raw=true
 	stylesheet:stuff/basic.css
@@ -69,11 +69,11 @@ Buildings
 		icon:icons[0,0]
 		cost:10 loot
 		on tick:yield 0.1 loot
-		passive:increase loot yield of lootBoxButton by 1.1
+		passive:increase loot yield of lootBoxButton by 0.1
 		//passive:if (have woodenBox) increase loot yield of simpleCrate by 0.1
 		//passive:if (have hardwoodBox) increase loot yield of simpleCrate by 0.1
 		//passive:if (have mahagoniBox) increase loot yield of simpleCrate by 0.2
-		//passive:if (have bonusGift) increase loot yield of lootBoxButton by 1
+		//passive:if (have xyz) increase loot yield of lootBoxButton by 1
 		unlocked
 
 
@@ -238,47 +238,47 @@ Upgrades
 
 	*paperBox
 		name:Paper Box
-		desc:A humble paper carton. Nothing fancy, but it holds loot.<//><b>Effect:</b><.>x2 Loot/Click<.>x2 Loot/Crate
+		desc:A humble paper carton. Nothing fancy, but it holds loot.<//><b>Effect:</b><.>Loot/Click +10%<.>Loot/Crate x2
 		icon:icons[0,4]
 		cost:100 loot
-		passive:multiply loot yield of lootBoxButton by 2
+		passive:multiply loot yield of lootBoxButton by 1.1
 		passive:multiply loot yield of crate by 2
 		req:10 loot:earned and crate>=1
 
 	*woodenBox
 		name:Wooden Box
-		desc:A sturdy wooden Box, made for shipping.<//><b>Effect:</b><.>x2 Loot/Click<.>x2 Loot/Crate
+		desc:A sturdy wooden Box, made for shipping.<//><b>Effect:</b><.>Loot/Click +15%<.>Loot/Crate x2
 		icon:icons[1,4]
 		cost:1500 loot
-		passive:multiply loot yield of lootBoxButton by 2
+		passive:multiply loot yield of lootBoxButton by 1.15
 		passive:multiply loot yield of crate by 2
 		req:200 loot:earned and paperBox
 
 	*hardwoodBox
 		name:Hardwood Box
-		desc:A hardy wooden box, capable of securely transporting loot.<//><b>Effect:</b><.>x2 Loot/Click<.>x2 Loot/Crate
+		desc:A hardy wooden box, capable of securely transporting loot.<//><b>Effect:</b><.>Loot/Click +20%<.>Loot/Crate x2
 		icon:icons[2,4]
 		cost:22500 loot
-		passive:multiply loot yield of lootBoxButton by 2
+		passive:multiply loot yield of lootBoxButton by1.2
 		passive:multiply loot yield of crate by 2
 		req:500 loot:earned and woodenBox
 
 
 	*mahagoniBox
 		name:Mahagoni Box
-		desc:A strong and beautiful wooden box, perfect for hight quality loot.<//><b>Effect:</b><.>x2 Loot/Click<.>x2 Loot/Crate
+		desc:A strong and beautiful wooden box, perfect for hight quality loot.<//><b>Effect:</b><.>Loot/Click +25%<.>Loot/Crate x2
 		icon:icons[3,4]
 		cost:337500 loot
-		passive:multiply loot yield of lootBoxButton by 2
+		passive:multiply loot yield of lootBoxButton by 1.25
 		passive:multiply loot yield of crate by 2
 		req:1000 loot:earned and hardwoodBox
 
 	*ebonwoodBox
 		name:Ebonwood Box
-		desc:Made from the finest quality of wood, only for the highest quality of loot.<//><b>Effect:</b><.>x2 Loot/Click<.>x2 Loot/Crate
+		desc:Made from the finest quality of wood, only for the highest quality of loot.<//><b>Effect:</b><.>Loot/Click +30%<.>Loot/Crate x2
 		icon:icons[4,4]
 		cost:5062500 loot
-		passive:multiply loot yield of lootBoxButton by 2
+		passive:multiply loot yield of lootBoxButton by 1.3
 		passive:multiply loot yield of crate by 2
 		req:10000 loot:earned and hardwoodBox
 
