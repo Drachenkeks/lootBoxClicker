@@ -335,25 +335,25 @@ Achievements
 
 	*lootAchiev1.000
 		name:It aint honest, but it's much.
-		desc:Have <b>1000</b> loot.
+		desc:Have <b>1.000</b> loot.
 		req:1000 loot
 		icon:icons[3,2] icons[0,3]
 
 	*lootAchiev10.000
 		name:A small fortune.
-		desc:Have <b>10000</b> loot.
+		desc:Have <b>10.000</b> loot.
 		req:10000 loot
 		icon:icons[4,2] icons[0,3]
 
 	*lootAchiev100.000
 		name:I'm loot, dabadi dabadei~
-		desc:Have <b>100000</b> loot.
+		desc:Have <b>100.000</b> loot.
 		req:100000 loot
 		icon:icons[5,2] icons[0,3]
 
 	*lootAchiev1.000.000
 		name:One in a Million.
-		desc:Have <b>1000000</b> loot.
+		desc:Have <b>1.000.000</b> loot.
 		req:1000000 loot
 		icon:icons[6,2] icons[0,3]
 
@@ -429,7 +429,7 @@ Achievements
 
 	*gachaAchiev1015
 		name:Generation 9
-		desc:Have <b>1015</b> Gacha Machines. Gotta collect them all!
+		desc:Have <b>1.015</b> Gacha Machines. Gotta collect them all!
 		req:1015 gacha
 		icon:icons[9,2] icons[1,0]
 
