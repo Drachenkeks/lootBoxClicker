@@ -4,7 +4,7 @@ Let's make a game!
 	desc:A game about "Surprise Mechanics"
 	created:15/02/2023
 	updated:27/02/2023
-	version:50
+	version:52
 
 Settings
 	tiling background:https://orteil.dashnet.org/igm/img/crunchyBGdark.jpg
@@ -242,19 +242,19 @@ Upgrades
 
 	*paperBox
 		name:Paper Box
-		desc:A humble paper carton. Nothing fancy, but it holds loot.<//><b>Effect:</b><.>Loot/Click +10%<.>Loot/Crate x2
+		desc:A humble paper carton. Nothing fancy, but it holds loot.<//><b>Effect:</b><.>Loot/Click +20%<.>Loot/Crate x2
 		icon:icons[0,4]
 		cost:100 loot
-		passive:multiply loot yield of lootBoxButton by 1.1
+		passive:multiply loot yield of lootBoxButton by 1.2
 		passive:multiply loot yield of crate by 2
 		req:10 loot:earned and crate>=10
 
 	*woodenBox
 		name:Wooden Box
-		desc:A sturdy wooden Box, made for shipping.<//><b>Effect:</b><.>Loot/Click +15%<.>Loot/Crate x2
+		desc:A sturdy wooden Box, made for shipping.<//><b>Effect:</b><.>Loot/Click +20%<.>Loot/Crate x2
 		icon:icons[1,4]
 		cost:1500 loot
-		passive:multiply loot yield of lootBoxButton by 1.15
+		passive:multiply loot yield of lootBoxButton by 1.2
 		passive:multiply loot yield of crate by 2
 		req:200 loot:earned and paperBox
 
@@ -270,10 +270,10 @@ Upgrades
 
 	*mahagoniBox
 		name:Mahagoni Box
-		desc:A strong and beautiful wooden box, perfect for hight quality loot.<//><b>Effect:</b><.>Loot/Click +25%<.>Loot/Crate x2
+		desc:A strong and beautiful wooden box, perfect for hight quality loot.<//><b>Effect:</b><.>Loot/Click +20%<.>Loot/Crate x2
 		icon:icons[3,4]
 		cost:337500 loot
-		passive:multiply loot yield of lootBoxButton by 1.25
+		passive:multiply loot yield of lootBoxButton by 1.2
 		passive:multiply loot yield of crate by 2
 		req:1000 loot:earned and hardwoodBox
 
@@ -374,22 +374,64 @@ Achievements
 	//Gachapon Machine
 
 	*gachaAchiev1
-		name:Gachapon
+		name:Gumball Empire
 		desc:Have <b>1</b> Gacha Machine.
 		req:1 gacha
 		icon:icons[0,2] icons[1,0]
 
-	*gachaAchiev100
-		name:Gumball Empire
-		desc:Have <b>100</b> Gacha Machines.
-		req:100 gacha
-		icon:icons[1,2] icons[1,0]
-
 	*gachaAchiev151
-		name:GachaMon
+		name:Generation 1
 		desc:Have <b>151</b> Gacha Machines. Gotta collect them all!
 		req:151 gacha
 		icon:icons[1,2] icons[1,0]
+
+	*gachaAchiev251
+		name:Generation 2
+		desc:Have <b>251</b> Gacha Machines. Gotta collect them all!
+		req:251 gacha
+		icon:icons[2,2] icons[1,0]
+
+	*gachaAchiev386
+		name:Generation 3
+		desc:Have <b>386</b> Gacha Machines. Gotta collect them all!
+		req:386 gacha
+		icon:icons[3,2] icons[1,0]
+
+	*gachaAchiev493
+		name:Generation 4
+		desc:Have <b>493</b> Gacha Machines. Gotta collect them all!
+		req:493 gacha
+		icon:icons[4,2] icons[1,0]
+
+	*gachaAchiev649
+		name:Generation 5
+		desc:Have <b>649</b> Gacha Machines. Gotta collect them all!
+		req:649 gacha
+		icon:icons[5,2] icons[1,0]
+
+	*gachaAchiev721
+		name:Generation 6
+		desc:Have <b>721</b> Gacha Machines. Gotta collect them all!
+		req:721 gacha
+		icon:icons[6,2] icons[1,0]
+
+	*gachaAchiev809
+		name:Generation 7
+		desc:Have <b>809</b> Gacha Machines. Gotta collect them all!
+		req:809 gacha
+		icon:icons[7,2] icons[1,0]
+
+	*gachaAchiev905
+		name:Generation 8
+		desc:Have <b>905</b> Gacha Machines. Gotta collect them all!
+		req:905 gacha
+		icon:icons[8,2] icons[1,0]
+
+	*gachaAchiev1015
+		name:Generation 9
+		desc:Have <b>1015</b> Gacha Machines. Gotta collect them all!
+		req:1015 gacha
+		icon:icons[9,2] icons[1,0]
 
 	//Loot Store
 
