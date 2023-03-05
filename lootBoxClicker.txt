@@ -4,7 +4,7 @@ Let's make a game!
 	desc:A game about "Surprise Mechanics"
 	created:15/02/2023
 	updated:27/02/2023
-	version:39
+	version:40
 
 Settings
 	tiling background:https://orteil.dashnet.org/igm/img/crunchyBGdark.jpg
@@ -234,27 +234,28 @@ Upgrades
 	*TEMPLATE
 		on click:anim glow
 
-	//Crate upgrades
+	Crate upgrades
 
-	//*paperBox
-		//name:paper Box
-		//desc:A humble paper carton. Nothing fancy, but it holds loot.<//><b>Effect:</b><.>+1 loot/click
-		//icon:icons[4,0]
-		//cost:100 loot
-		//passive:increase loot yield of lootBoxButton by 1
-		//req:10 loot:earned
+	*paperBox
+		name:Paper Box
+		desc:A humble paper carton. Nothing fancy, but it holds loot.<//><b>Effect:</b><.>x2 Loot/Click<.>x2 Loot/Crate
+		icon:icons[0,4]
+		cost:100 loot
+		passive:multiply loot yield of lootBoxButton by 2
+		passive:multiply loot yield of crate by 2
+		req:10 loot:earned and crate>=1
 
 	//*woodenBox
-		//name:wooden Box
+		//name:Wooden Box
 		//desc:A sturdy wooden Box, made for shipping.<//><b>Effect:</b><.>+1 loot/click<.>+0.1 loot/Crate
 		//icon:icons[5,0]
 		//cost:500 loot
 		//passive:increase loot yield of lootBoxButton by 1
 		//passive:increase loot yield of simpleCrate by 0.1
-		//req:200 loot:earned and simpleBox
+		//req:200 loot:earned and paperBox
 
 	//*hardwoodBox
-		//name:hardwood Box
+		//name:Hardwood Box
 		//desc:A hardy wooden box, capable of securely transporting loot.<//><b>Effect:</b><.>+1 loot/click<.>+0.1 loot/Crate
 		//icon:icons[6,0]
 		//cost:1000 loot
@@ -264,7 +265,16 @@ Upgrades
 
 
 	//*mahagoniBox
-		//name:mahagoni Box
+		//name:Mahagoni Box
+		//desc:A strong and beautiful wooden box, perfect for hight quality loot.<//><b>Effect:</b><.>+2 loot/click<.>+0.2 loot/Crate
+		//icon:icons[2,3]
+		//cost:2000 loot
+		//passive:increase loot yield of lootBoxButton by 2
+		//passive:increase loot yield of simpleCrate by 0.2
+		//req:1000 loot:earned and hardwoodBox
+
+	//*ebonwoodBox
+		//name:Ebonwood Box
 		//desc:A strong and beautiful wooden box, perfect for hight quality loot.<//><b>Effect:</b><.>+2 loot/click<.>+0.2 loot/Crate
 		//icon:icons[2,3]
 		//cost:2000 loot
