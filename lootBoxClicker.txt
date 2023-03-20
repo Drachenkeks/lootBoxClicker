@@ -1,7 +1,7 @@
 Let's make a game!
 	name:Loot Box Clicker
 	by:Drachenkeks
-	desc:A game about "Surprise Mechanics"
+	desc:A game about "Surprise Mechanics"</b>v0.55
 	created:15/02/2023
 	updated:27/02/2023
 	version:55
