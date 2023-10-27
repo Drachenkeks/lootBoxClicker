@@ -188,7 +188,7 @@ Buildings
 		name:Loot Data Center|Loot Data Centers
 		desc:.<//><b>Effect:</b><.>Produces 2.441.406.250 Loot/Second.
 		icon:icons[4,1]
-		cost:2.400000000000000 loot
+		cost:2400000000000000 loot
 		on tick:yield 2441406250 loot
 		req:230000000000000 loot:earned
 
