@@ -212,7 +212,7 @@ Buildings
 		name:Space Loot Center|Space Loot Centers
 		desc:.<//><b>Effect:</b><.>Produces 305.175.781.250 Loot/Second.
 		icon:icons[7,1]
-		cost:2.700000000000000000 loot
+		cost:2700000000000000000 loot
 		on tick:yield 305175781250 loot
 		req:260000000000000000 loot:earned
 
