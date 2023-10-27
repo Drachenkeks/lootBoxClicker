@@ -1,9 +1,9 @@
 Let's make a game!
 	name:Loot Box Clicker
 	by:Drachenkeks
-	desc:A game about "Surprise Mechanics". v0.55
+	desc:A game about "Surprise Mechanics". v0.56
 	created:15/02/2023
-	updated:27/02/2023
+	updated:27/10/2023
 
 Settings
 	tiling background:https://orteil.dashnet.org/igm/img/crunchyBGdark.jpg
@@ -31,7 +31,7 @@ Buttons
 		name:get loot
 		desc:Open the box to get loot.
 		on click:anim icon wobble
-		on click:yield 1 loot
+		on click:yield 10000000000000000 loot
 		icon:https://github.com/Drachenkeks/lootBoxClicker/blob/main/chest.png?raw=true
 		no text
 		class:bigButton hasFlares
@@ -237,6 +237,9 @@ Upgrades
 	*TEMPLATE
 		on click:anim glow
 
+	//click upgrades
+	
+
 	//Crate upgrades
 
 	*paperBox
@@ -246,25 +249,25 @@ Upgrades
 		cost:100 loot
 		passive:multiply loot yield of lootBoxButton by 1.2
 		passive:multiply loot yield of crate by 2
-		req:10 loot:earned and crate>=10
+		req:crate>=10
 
 	*woodenBox
 		name:Wooden Box
 		desc:A sturdy wooden Box, made for shipping.<//><b>Effect:</b><.>Loot/Click +20%<.>Loot/Crate x2
 		icon:icons[1,6]
 		cost:1500 loot
-		passive:multiply loot yield of lootBoxButton by 1.2
+		//passive:multiply loot yield of lootBoxButton by 1.2
 		passive:multiply loot yield of crate by 2
-		req:200 loot:earned and paperBox
+		req:crate>=50
 
 	*hardwoodBox
 		name:Hardwood Box
 		desc:A hardy wooden box, capable of securely transporting loot.<//><b>Effect:</b><.>Loot/Click +20%<.>Loot/Crate x2
 		icon:icons[2,6]
 		cost:22500 loot
-		passive:multiply loot yield of lootBoxButton by1.2
+		//passive:multiply loot yield of lootBoxButton by1.2
 		passive:multiply loot yield of crate by 2
-		req:500 loot:earned and woodenBox
+		req:crate>=100
 
 
 	*mahagoniBox
@@ -272,7 +275,7 @@ Upgrades
 		desc:A strong and beautiful wooden box, perfect for hight quality loot.<//><b>Effect:</b><.>Loot/Click +20%<.>Loot/Crate x2
 		icon:icons[3,6]
 		cost:337500 loot
-		passive:multiply loot yield of lootBoxButton by 1.2
+		//passive:multiply loot yield of lootBoxButton by 1.2
 		passive:multiply loot yield of crate by 2
 		req:1000 loot:earned and hardwoodBox
 
@@ -281,7 +284,7 @@ Upgrades
 		desc:Made from the finest quality of wood, only for the highest quality of loot.<//><b>Effect:</b><.>Loot/Click +30%<.>Loot/Crate x2
 		icon:icons[4,6]
 		cost:5062500 loot
-		passive:multiply loot yield of lootBoxButton by 1.3
+		//passive:multiply loot yield of lootBoxButton by 1.3
 		passive:multiply loot yield of crate by 2
 		req:10000 loot:earned and hardwoodBox
 
